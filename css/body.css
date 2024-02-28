@@ -1,0 +1,182 @@
+main {
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 800px;
+}
+
+.quemsomos,
+.catalogo {
+    padding-left: 2%;
+    padding-top: 2%;
+    padding-right: 10%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 800px;
+    color: #fff;
+}
+
+.quemsomos h1 {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.descricao-quemsomos {
+    margin-left: 50%;
+    padding: 5% 10%;
+    font-size: 2em;
+}
+
+.catalogo {
+    color: black;
+}
+
+.logocatalogo {
+    width: 45%;
+}
+
+.catalogo-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.catalogo h1 {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.logocatalogo img {
+    width: 100%;
+}
+
+.descricao-catalogo {
+    width: 45%;
+    font-size: 2em;
+}
+
+.btn-catalogo {
+    width: 160px;
+    background-image: linear-gradient(180deg, rgb(238, 143, 143), red);
+    color: #fff;
+    border: 1px #dee5ed solid;
+    border-radius: 15px;
+    padding: 1em 0em;
+    font-size: 0.5em;
+    font-weight: bolder;
+}
+
+/* CATALOGO*/
+
+.section-catalogo {
+    background-color: #fff;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+}
+
+.title-catalogo h1 {
+    color: black;
+    margin-top: 0;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 2.2em;
+    letter-spacing: 2px;
+}
+
+.container-catalogo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.catalogo-content h3 {
+    font-size: 1em;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.itens-catalogo {
+    padding: 20px;
+    background: #fff;
+    width: 300px;
+    margin: 15px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.btn-comprar {
+    width: 160px;   
+    background-image: linear-gradient(180deg, rgb(238, 143, 143), red);
+    color: #fff;
+    border: 1px #dee5ed solid;
+    border-radius: 20px;
+    padding: 0.7em 0em;
+    font-size: 1em;
+    font-weight: bolder;
+}
+
+/*CONTATO*/
+
+
+.title-contato h1 {
+    color: black;
+    margin-top: 50px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+
+.section-contato p {
+    margin-left: 25%;
+    margin-right: 25%;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 50px;
+}
+
+.section-contato .formulario form {
+    flex-wrap: wrap;
+    margin-left: 25%;
+    margin-right: 25%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.section-contato .formulario .campos {
+    width: 50%;
+}
+
+.section-contato .formulario .campo {
+    width: 90%;
+    padding: 2px;
+    padding: 0.5em;
+    font-size: 1.5em;
+    resize: none;
+    background-color: #eff2f3;
+    margin: 5px;
+    border-color: #dee5ed;
+    border-radius: 8px;
+}
+
+.btn-contato {
+    background-image: linear-gradient(180deg, rgb(238, 143, 143), red);
+    color: #fff;
+    border: 1px #dee5ed solid;
+    border-radius: 20px;
+    padding: 1em;
+    font-size: 1em;
+    font-weight: bolder;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+}
